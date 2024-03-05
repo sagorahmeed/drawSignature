@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    console.log('loaded')
     const drawingArea = document.getElementById("drawingArea");
     const previewDrawingArea = document.getElementById("previewDrawingArea");
     const colorPicker = document.getElementById("colorPicker");
